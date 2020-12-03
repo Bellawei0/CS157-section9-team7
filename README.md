@@ -6,11 +6,13 @@ Fall 2020
 
 Written by:
 
+	ZhengYao(Josh) Chin
+
   	Bella Wei
 
   	Henry Fan
 
-	ZhengYao(Josh) Chin
+	
 
 
 ## LearnToSeekTruth
