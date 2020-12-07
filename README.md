@@ -39,3 +39,16 @@ A goal of this is to position students so that by the end of their course, they 
 * Lecture Update
 * Lecture Note Deletion
 * Tracking Learning Process
+
+### Installation
+Tools: Eclipse EE , MySQL Workbench, Tomcat
+1) Set Up Environment WorkBench -> import data Import project157a.sql to MySQL Workbench
+2) Clone git repository
+3) Import project to Eclipse EE: Go to Eclipse EE - > Import -> Existing Projects into Workspace
+4) Configuration 
+	a) Configure build path, right click project name -> Build Path -> configure Build Path 
+	---> Add External JARS ---> mysql-Connector
+	b) Configure database connection
+	Find this file config.properties under project folder Java Resources- > src - > config.properties 
+	change the inside information to your own database username and password
+5) Run index.html on Tomcat server under WebContent - > WEB-INF-> index.html
